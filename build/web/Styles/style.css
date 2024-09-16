@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Apr, 2024, 6:29:38 PM
+    Author     : RAAGI
+*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+/* Home.jsp */
+.rounded-right {
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    border-right: 15px solid rgb(191, 128, 255);
+    background-color: lavender;
+    height : 85vh;
+}
+
+.nav-link {
+    list-style: none;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nav-sublink {
+    list-style: none;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.nav-subitem a {
+    text-decoration: none;
+    font-size: 12px; /* adjust the font size to your liking */
+    color: #333;
+}
+
+.nav-item a{
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+}
+
+.nav-item a:hover{
+    color: #b31aff;
+}
+
+.nav-item i {
+    font-size: 20px; /* Adjust the icon size as needed */
+    color: #6c757d; /* Adjust the icon color as needed */
+}
+
+/* Profile.jsp */
+
+.user-details{
+    width: 100%;
+    font-size: 18px;
+}
+
+.user-details tr{
+    margin-bottom: 50px;
+}
+
+/* trackExpenses.jsp*/
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
